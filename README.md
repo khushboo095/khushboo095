@@ -1,46 +1,83 @@
 <div align="center">
 
-<!-- Minimal Aesthetic SVG Banner -->
-<svg width="860" height="140" viewBox="0 0 860 140" xmlns="http://www.w3.org/2000/svg">
+<!-- ╔══════════════════════════════════════════════════════════╗ -->
+<!--                     TOP BANNER                             -->
+<!-- ╚══════════════════════════════════════════════════════════╝ -->
+
+<svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d0d0d"/>
-      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    <linearGradient id="topBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="50%" style="stop-color:#0f0f24"/>
+      <stop offset="100%" style="stop-color:#12091a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#e040fb"/>
       <stop offset="100%" style="stop-color:#00bcd4"/>
     </linearGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e040fb;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#e040fb;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00bcd4;stop-opacity:0.14"/>
+      <stop offset="100%" style="stop-color:#00bcd4;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0"/>
+    </radialGradient>
   </defs>
+
   <!-- Background -->
-  <rect width="860" height="140" rx="14" fill="url(#bg)"/>
-  <!-- Subtle dot grid pattern -->
-  <circle cx="720" cy="30" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="750" cy="30" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="780" cy="30" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="810" cy="30" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="840" cy="30" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="720" cy="55" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="750" cy="55" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="780" cy="55" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="810" cy="55" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="840" cy="55" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="720" cy="80" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="750" cy="80" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="780" cy="80" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="810" cy="80" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="840" cy="80" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="720" cy="105" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="750" cy="105" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="780" cy="105" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="810" cy="105" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <circle cx="840" cy="105" r="1.5" fill="#ffffff" opacity="0.08"/>
-  <!-- Gradient accent bar -->
-  <rect x="40" y="40" width="4" height="60" rx="2" fill="url(#accent)"/>
+  <rect width="860" height="160" rx="16" fill="url(#topBg)"/>
+  <rect width="860" height="160" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Dot grid pattern (right area) -->
+  <g opacity="0.5">
+    <!-- Row 1 -->
+    <circle cx="700" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="28" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="28" r="1.2" fill="#fff" opacity="0.07"/>
+    <!-- Row 2 -->
+    <circle cx="700" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="52" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="52" r="1.2" fill="#fff" opacity="0.07"/>
+    <!-- Row 3 -->
+    <circle cx="700" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="76" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="76" r="1.2" fill="#fff" opacity="0.07"/>
+    <!-- Row 4 -->
+    <circle cx="700" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="100" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="100" r="1.2" fill="#fff" opacity="0.07"/>
+    <!-- Row 5 -->
+    <circle cx="700" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="124" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="124" r="1.2" fill="#fff" opacity="0.07"/>
+    <!-- Row 6 -->
+    <circle cx="700" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="724" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="748" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="772" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="796" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="820" cy="148" r="1.2" fill="#fff" opacity="0.07"/><circle cx="844" cy="148" r="1.2" fill="#fff" opacity="0.07"/>
+  </g>
+
+  <!-- Ambient orbs -->
+  <ellipse cx="840" cy="20" rx="140" ry="140" fill="url(#orb1)"/>
+  <ellipse cx="760" cy="170" rx="130" ry="130" fill="url(#orb2)"/>
+  <ellipse cx="420" cy="-10" rx="90" ry="90" fill="url(#orb3)"/>
+
+  <!-- Left accent bar -->
+  <rect x="40" y="45" width="4" height="70" rx="2" fill="url(#accentBar)"/>
+
   <!-- Name -->
-  <text x="58" y="76" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="0.5">Khushboo Kumari</text>
-  <!-- Subtitle -->
-  <text x="59" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#9e9e9e" letter-spacing="2.5">DATA SCIENCE  ·  ML  ·  WEB DEV  ·  SOFTWARE ENGINEERING</text>
+  <text x="58" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Khushboo Kumari</text>
+
+  <!-- Tagline -->
+  <text x="59" y="115" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.42)" letter-spacing="3">DATA SCIENCE  ·  MACHINE LEARNING  ·  WEB DEV  ·  SOFTWARE ENGINEERING</text>
+
+  <!-- Right-side status badges -->
+  <!-- ML Badge -->
+  <rect x="598" y="34" width="100" height="26" rx="13" fill="rgba(224,64,251,0.15)" stroke="rgba(224,64,251,0.3)" stroke-width="1"/>
+  <circle cx="614" cy="47" r="3.5" fill="#e040fb"/>
+  <text x="622" y="51" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#e040fb" letter-spacing="0.5">ML Engineer</text>
+
+  <!-- DS Badge -->
+  <rect x="598" y="68" width="106" height="26" rx="13" fill="rgba(0,188,212,0.12)" stroke="rgba(0,188,212,0.28)" stroke-width="1"/>
+  <circle cx="614" cy="81" r="3.5" fill="#00bcd4"/>
+  <text x="622" y="85" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#00bcd4" letter-spacing="0.5">Data Science</text>
+
+  <!-- SE Badge -->
+  <rect x="598" y="102" width="112" height="26" rx="13" fill="rgba(99,102,241,0.12)" stroke="rgba(165,180,252,0.28)" stroke-width="1"/>
+  <circle cx="614" cy="115" r="3.5" fill="#a5b4fc"/>
+  <text x="622" y="119" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#a5b4fc" letter-spacing="0.5">Software Eng.</text>
 </svg>
 
 <br/>
@@ -149,13 +186,79 @@ I'm **Khushboo Kumari** — a passionate learner on a self-driven journey to mas
 
 ## 📫 Let's Connect!
 
+<!-- ╔══════════════════════════════════════════════════════════╗ -->
+<!--                    BOTTOM BANNER                           -->
+<!-- ╚══════════════════════════════════════════════════════════╝ -->
+
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed)
-[![Email Me](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kk595139@gmail.com)
+<svg width="860" height="120" viewBox="0 0 860 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="botBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070713"/>
+      <stop offset="40%" style="stop-color:#0e0a1c"/>
+      <stop offset="100%" style="stop-color:#080f18"/>
+    </linearGradient>
+    <linearGradient id="sweepLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="30%" style="stop-color:#e040fb"/>
+      <stop offset="70%" style="stop-color:#00bcd4"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+    <radialGradient id="botOrb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e040fb;stop-opacity:0.10"/>
+      <stop offset="100%" style="stop-color:#e040fb;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="botOrb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00bcd4;stop-opacity:0.10"/>
+      <stop offset="100%" style="stop-color:#00bcd4;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
 
-<br/>
+  <!-- Background -->
+  <rect width="860" height="120" rx="16" fill="url(#botBg)"/>
+  <rect width="860" height="120" rx="16" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
 
-*⭐ If you like my work, consider starring my repos — it means a lot!*
+  <!-- Dot grid -->
+  <g opacity="0.6">
+    <circle cx="20" cy="24" r="1" fill="#fff" opacity="0.06"/><circle cx="44" cy="24" r="1" fill="#fff" opacity="0.06"/><circle cx="68" cy="24" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="20" cy="48" r="1" fill="#fff" opacity="0.06"/><circle cx="44" cy="48" r="1" fill="#fff" opacity="0.06"/><circle cx="68" cy="48" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="20" cy="72" r="1" fill="#fff" opacity="0.06"/><circle cx="44" cy="72" r="1" fill="#fff" opacity="0.06"/><circle cx="68" cy="72" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="20" cy="96" r="1" fill="#fff" opacity="0.06"/><circle cx="44" cy="96" r="1" fill="#fff" opacity="0.06"/><circle cx="68" cy="96" r="1" fill="#fff" opacity="0.06"/>
+    <!-- right side -->
+    <circle cx="792" cy="24" r="1" fill="#fff" opacity="0.06"/><circle cx="816" cy="24" r="1" fill="#fff" opacity="0.06"/><circle cx="840" cy="24" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="792" cy="48" r="1" fill="#fff" opacity="0.06"/><circle cx="816" cy="48" r="1" fill="#fff" opacity="0.06"/><circle cx="840" cy="48" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="792" cy="72" r="1" fill="#fff" opacity="0.06"/><circle cx="816" cy="72" r="1" fill="#fff" opacity="0.06"/><circle cx="840" cy="72" r="1" fill="#fff" opacity="0.06"/>
+    <circle cx="792" cy="96" r="1" fill="#fff" opacity="0.06"/><circle cx="816" cy="96" r="1" fill="#fff" opacity="0.06"/><circle cx="840" cy="96" r="1" fill="#fff" opacity="0.06"/>
+  </g>
+
+  <!-- Ambient orbs -->
+  <ellipse cx="-30" cy="120" rx="160" ry="160" fill="url(#botOrb1)"/>
+  <ellipse cx="900" cy="0" rx="140" ry="140" fill="url(#botOrb2)"/>
+
+  <!-- Bottom sweep line -->
+  <rect x="0" y="118" width="860" height="2" rx="1" fill="url(#sweepLine)"/>
+
+  <!-- Heading -->
+  <text x="40" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="-0.3">Let's Build Something Together</text>
+
+  <!-- Subtext -->
+  <text x="41" y="72" font-family="'Courier New', monospace" font-size="9.5" fill="rgba(255,255,255,0.38)" letter-spacing="2.5">OPEN TO COLLABORATIONS  ·  OPEN TO OPPORTUNITIES</text>
+
+  <!-- LinkedIn button -->
+  <rect x="430" y="32" width="110" height="34" rx="8" fill="rgba(10,102,194,0.2)" stroke="rgba(10,102,194,0.4)" stroke-width="1"/>
+  <text x="485" y="54" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#60a5fa" text-anchor="middle" letter-spacing="0.3">in  LinkedIn</text>
+
+  <!-- GitHub button -->
+  <rect x="550" y="32" width="100" height="34" rx="8" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>
+  <text x="600" y="54" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#e2e8f0" text-anchor="middle" letter-spacing="0.3">⌥  GitHub</text>
+
+  <!-- Kaggle button -->
+  <rect x="660" y="32" width="100" height="34" rx="8" fill="rgba(32,190,255,0.12)" stroke="rgba(32,190,255,0.28)" stroke-width="1"/>
+  <text x="710" y="54" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#67e8f9" text-anchor="middle" letter-spacing="0.3">◈  Kaggle</text>
+
+  <!-- Star note -->
+  <text x="40" y="100" font-family="'Courier New', monospace" font-size="9" fill="rgba(255,255,255,0.22)" letter-spacing="0.5">★ if you like my work, consider starring my repos — it means a lot!</text>
+</svg>
 
 </div>
