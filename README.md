@@ -105,9 +105,9 @@ I'm **Khushboo Kumari** — a passionate learner on a self-driven journey to mas
 |---|---|
 | 🎓 | Currently a **Student** exploring the full tech landscape |
 | 📊 | Deep-diving into **Data Science, EDA & Machine Learning** |
-| 🌐 | Building projects with **Web Development** skills |
+| 🌐 | Building projects with **Python Developer** skills |
 | 💻 | Growing as a **Software Engineer** — one commit at a time |
-| 🎯 | Goal: **Data Scientist / ML Engineer / Full-Stack Developer** |
+| 🎯 | Goal: **Data Scientist / ML Engineer ** |
 | 💡 | Mindset: *Learn it → Build it → Push it → Repeat* |
 | 📓 | This profile is my **live learning journal** |
 
