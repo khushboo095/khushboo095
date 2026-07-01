@@ -61,7 +61,7 @@
   <text x="58" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="38" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Khushboo Kumari</text>
 
   <!-- Tagline -->
-  <text x="59" y="115" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.42)" letter-spacing="3">DATA SCIENCE  ·  MACHINE LEARNING  ·  WEB DEV  ·  SOFTWARE ENGINEERING</text>
+  <text x="59" y="115" font-family="'Courier New', monospace" font-size="10" fill="rgba(255,255,255,0.42)" letter-spacing="3">DATA SCIENCE  ·  MACHINE LEARNING  ·  PYTHON DEVELOPER ·  SOFTWARE ENGINEERING</text>
 
   <!-- Right-side status badges -->
   <!-- ML Badge -->
