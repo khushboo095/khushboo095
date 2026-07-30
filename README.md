@@ -132,71 +132,13 @@ My core focus is on transforming raw, unstructured data into **actionable insigh
 
 </div>
 
-### 📊 Data Analysis & Scientific Computing
-
-<div align="center">
-
-| NumPy | Pandas | SciPy | Statsmodels |
-|:---:|:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=numpy" width="40"/> | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white) | ![Statsmodels](https://img.shields.io/badge/Statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-
-</div>
-
-### 📈 Data Visualization & Business Intelligence
-
-<div align="center">
-
-| Matplotlib | Seaborn | Plotly | Power BI | Tableau | Excel |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white) | ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge&logo=python&logoColor=white) | ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) | ![PowerBI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) | ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) |
-
-</div>
-
-### 🤖 Machine Learning & Deep Learning
-
-<div align="center">
-
-| Scikit-Learn | TensorFlow | Keras | PyTorch | XGBoost | OpenCV |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | <img src="https://skillicons.dev/icons?i=tensorflow" width="40"/> | ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) | <img src="https://skillicons.dev/icons?i=pytorch" width="40"/> | ![XGBoost](https://img.shields.io/badge/XGBoost-0E76A8?style=for-the-badge&logo=xgboost&logoColor=white) | <img src="https://skillicons.dev/icons?i=opencv" width="40"/> |
-
-</div>
-
-### 📝 NLP & Text Analytics
-
-<div align="center">
-
-| NLTK | spaCy | Hugging Face |
-|:---:|:---:|:---:|
-| ![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white) | ![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge) |
-
-</div>
-
 ### 🌐 Web Development
 
 <div align="center">
 
-| HTML5 | CSS3 | JavaScript |
-|:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=html" width="40"/> | <img src="https://skillicons.dev/icons?i=css" width="40"/> | <img src="https://skillicons.dev/icons?i=js" width="40"/> |
-
-</div>
-
-### 🧩 Frameworks
-
-<div align="center">
-
-**Web Development Frameworks**
-
-| Flask | Django | FastAPI | Node.js | Express | React | Bootstrap |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | <img src="https://skillicons.dev/icons?i=nodejs" width="40"/> | ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) | <img src="https://skillicons.dev/icons?i=react" width="40"/> | <img src="https://skillicons.dev/icons?i=bootstrap" width="40"/> |
-
-**Data Science & ML Frameworks**
-
-| Scikit-Learn | TensorFlow | Keras | PyTorch | Streamlit | Flask (ML APIs) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | <img src="https://skillicons.dev/icons?i=tensorflow" width="40"/> | ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) | <img src="https://skillicons.dev/icons?i=pytorch" width="40"/> | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) | ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) |
+| HTML5 | CSS3 | JavaScript | React | Node.js | Express | Flask | Django | FastAPI | Bootstrap |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=html" width="40"/> | <img src="https://skillicons.dev/icons?i=css" width="40"/> | <img src="https://skillicons.dev/icons?i=js" width="40"/> | <img src="https://skillicons.dev/icons?i=react" width="40"/> | <img src="https://skillicons.dev/icons?i=nodejs" width="40"/> | ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) | ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | <img src="https://skillicons.dev/icons?i=bootstrap" width="40"/> |
 
 </div>
 
@@ -207,6 +149,20 @@ My core focus is on transforming raw, unstructured data into **actionable insigh
 | Git | GitHub | VS Code | Jupyter | Google Colab | Kaggle |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | <img src="https://skillicons.dev/icons?i=git" width="40"/> | <img src="https://skillicons.dev/icons?i=github" width="40"/> | <img src="https://skillicons.dev/icons?i=vscode" width="40"/> | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) | ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white) | [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/khushbookumaribts) |
+
+</div>
+
+### 🤖 ML, DS & DL Frameworks / Libraries
+
+<div align="center">
+
+| NumPy | Pandas | SciPy | Statsmodels | Matplotlib | Seaborn | Plotly | Power BI | Tableau | Excel |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://skillicons.dev/icons?i=numpy" width="40"/> | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white) | ![Statsmodels](https://img.shields.io/badge/Statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white) | ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=for-the-badge&logo=python&logoColor=white) | ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) | ![PowerBI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) | ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) | ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) |
+
+| Scikit-Learn | TensorFlow | Keras | PyTorch | XGBoost | OpenCV | Streamlit | NLTK | spaCy | Hugging Face |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | <img src="https://skillicons.dev/icons?i=tensorflow" width="40"/> | ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) | <img src="https://skillicons.dev/icons?i=pytorch" width="40"/> | ![XGBoost](https://img.shields.io/badge/XGBoost-0E76A8?style=for-the-badge&logo=xgboost&logoColor=white) | <img src="https://skillicons.dev/icons?i=opencv" width="40"/> | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) | ![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white) | ![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge) |
 
 </div>
 
