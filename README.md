@@ -182,6 +182,24 @@ My core focus is on transforming raw, unstructured data into **actionable insigh
 
 </div>
 
+### 🧩 Frameworks
+
+<div align="center">
+
+**Web Development Frameworks**
+
+| Flask | Django | FastAPI | Node.js | Express | React | Bootstrap |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | <img src="https://skillicons.dev/icons?i=nodejs" width="40"/> | ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) | <img src="https://skillicons.dev/icons?i=react" width="40"/> | <img src="https://skillicons.dev/icons?i=bootstrap" width="40"/> |
+
+**Data Science & ML Frameworks**
+
+| Scikit-Learn | TensorFlow | Keras | PyTorch | Streamlit | Flask (ML APIs) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | <img src="https://skillicons.dev/icons?i=tensorflow" width="40"/> | ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) | <img src="https://skillicons.dev/icons?i=pytorch" width="40"/> | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) | ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) |
+
+</div>
+
 ### 🧰 Tools & Platforms
 
 <div align="center">
